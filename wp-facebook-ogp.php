@@ -185,7 +185,6 @@ function wpfbogp_build_head() {
 			if ( is_array( $wpfbogp_images ) )
 			{
 				$wpfbogp_images[] = $options['wpfbogp_fallback_img']; // Add to images array
-				$wpfbogp_images = array_reverse($wpfbogp_images);
 			}
 			else {
 				$wpfbogp_images = array( $options['wpfbogp_fallback_img'] ); // Create image array with default image as index 0
